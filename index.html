@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="scss/main.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center;
+      margin: 100px 0; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+      <div class="bars-icon">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-menu-wrapper">
+        <div class="nav-menu">
+          <a href="#" class="nav-link">Collections</a>
+          <a href="#" class="nav-link">Men</a>
+          <a href="#" class="nav-link">Women</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Contact</a>
+        </div>
+      </div>
+      <h1 class="logo">
+        sneakers
+      </h1>
+      <div class="nav-wrapper">
+        <a href="#" class="nav-link">Collections</a>
+          <a href="#" class="nav-link">Men</a>
+          <a href="#" class="nav-link">Women</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Contact</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="cart-icon">
+        <img src="images/icon-cart.svg" alt="">
+        <div class="show-cart">
+          <h2 class="show-cart-head">
+            Cart
+          </h2>
+          <div class="show-cart-content">
+            <p class="cart-empty">
+              Yor Cart is empty.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="avatar">
+        <img src="images/image-avatar.png" alt="">
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="image-slideshow-wrapper">
+      <div class="image-slideshow">
+        <div class="slide-image">
+          <img src="images/image-product-1.jpg" alt="">
+        </div>
+        <div class="slide-image">
+          <img src="images/image-product-2.jpg" alt="">
+        </div>
+        <div class="slide-image">
+          <img src="images/image-product-3.jpg" alt="">
+        </div>
+        <div class="slide-image">
+          <img src="images/image-product-4.jpg" alt="">
+        </div>
+        <div class="btn-slideshow">
+          <div class="btn-prev" onclick="slides(-1)">
+            <img src="images/icon-previous.svg" alt="">
+          </div>
+          <div class="btn-next" onclick="slides(1)">
+            <img src="images/icon-next.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="image-thumbnails">
+        <div class="thumbnails">
+          <img src="images/image-product-1-thumbnail.jpg" alt="" onclick="slidesThumnails(1)">
+        </div>
+        <div class="thumbnails">
+          <img src="images/image-product-2-thumbnail.jpg" alt="" onclick="slidesThumnails(2)">
+        </div>
+        <div class="thumbnails">
+          <img src="images/image-product-3-thumbnail.jpg" alt="" onclick="slidesThumnails(3)">
+        </div>
+        <div class="thumbnails">
+          <img src="images/image-product-4-thumbnail.jpg" alt="" onclick="slidesThumnails(4)">
+        </div>
+      </div>
+    </section>
+  
+    <article>
+      <h3 class="sub-heading">
+        SNEAKER COMPANY
+      </h3>
+      <h1 class="heading">
+        Fall Limited Edition<br> Sneakers
+      </h1>
+      <p class="text">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+      </p>
+      <div class="price-wrapper">
+        <div class="left">
+          <h1 class="price">
+            $125.00
+          </h1>
+          <h2 class="discount-tag">
+            50%
+          </h2>
+        </div>
+        <h3 class="actual-price">
+          $250.00
+        </h3>
+      </div>
+      <div class="quantity-wrapper">
+        <div class="quantity-control">
+          <div class="quantity-min">
+            <img src="images/icon-minus.svg" alt="" onclick="cartQuantity(-1)">
+          </div>
+          <p class="quantity">
+            0
+          </p>
+          <div class="quantity-plus">
+            <img src="images/icon-plus.svg" alt="" onclick="cartQuantity(1)">
+          </div>
+        </div>
+        <button class="btn-cart" onclick="addToCart()">
+          <img src="images/icon-cart.svg" alt="">
+          Add to cart
+        </button>
+      </div>
+    </article>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/zulfikar321" target="_blank">Zulfikar Muhamad</a>.
+  </div> -->
+<script src="script/cart.js"></script>
+<script src="script/image-slideshow.js"></script>
+<script src="script/nav-menu.js"></script>
+</body>
+</html>
