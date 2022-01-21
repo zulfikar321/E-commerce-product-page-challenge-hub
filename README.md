@@ -17,8 +17,7 @@ Your users should be able to:
 
 ### Screenshot
 ![ecommerce1](https://github.com/zulfikar321/E-commerce-product-page-challenge-hub/blob/main/ScreenSchot/Ecommerce1.png?raw=true)
-![ecommerce2]()
-![ecommerce3]()
+![ecommerce2](https://github.com/zulfikar321/E-commerce-product-page-challenge-hub/blob/main/ScreenSchot/Ecommerce2.png?raw=true)
 
 
 
