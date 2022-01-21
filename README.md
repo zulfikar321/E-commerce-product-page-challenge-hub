@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator App Challange Hub
+# Frontend Mentor - E-commerce-product-page-challenge-hub
 
 ### Links
 
