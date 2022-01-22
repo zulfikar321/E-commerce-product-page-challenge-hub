@@ -10,10 +10,12 @@
 
 Your users should be able to:
 
--See the size of the elements adjust based on their device's screen size
--Perform mathematical operations like addition, subtraction, multiplication, and division
--Adjust the color theme based on their preference
--Bonus: Have their initial theme preference checked using prefers-color-scheme and have any additional changes saved in the browser
+-View the optimal layout for the site depending on their device's screen size
+-See hover states for all interactive elements on the page
+-Open a lightbox gallery by clicking on the large product image
+-Switch the large product image by clicking on the small thumbnail images
+-Add items to the cart
+-View the cart and remove items from it
 
 ### Screenshot
 ![ecommerce1](https://github.com/zulfikar321/E-commerce-product-page-challenge-hub/blob/main/ScreenSchot/Ecommerce1.png?raw=true)
